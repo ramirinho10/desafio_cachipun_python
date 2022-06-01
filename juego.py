@@ -12,7 +12,7 @@ Argumento inválido: Debe ser piedra, papel o tijera.
 import sys
 import random   
 
-jugador = sys.argv[1]
+jugador = sys.argv[1].lower()
 
 computador = ["piedra", "papel", "tijera"]
 computador = random.choice(computador)
